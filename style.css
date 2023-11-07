@@ -55,6 +55,15 @@ p{
     line-height: 40px;
 }
 
+.col-3{
+
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+    margin: 25px 0;
+    line-height: 40px;
+}
+
 .row{
     display: flex;
     align-items: center;
@@ -210,11 +219,180 @@ transition: transform 0.5s;
     border: 1px solid #090808;
 }
 
-input: focus{
+input focus{
+    outline: none;
+}
+
+
+/*--- varukorg---*/
+
+.cart-page {
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #834e54d5 ;
+    font-weight:normal ;
+
+}
+
+td{
+
+padding: 10px 5px ;
+
+}
+
+td input{
+
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a{
+
+  color:  #834e54d5 ;
+   font-size: 14px; 
+}
+
+td img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+
+    border-top: 3px solid#834e54d5 ; 
+    width: 100%;
+    max-width: 400px;
+}
+
+td last-child{
+    text-align: right;
+
+}
+
+th last-child{
+    text-align: right;
+}
+
+/*---accountpage--*/
+
+
+.account-page{
+    padding: 50px 0;
+    
+}
+
+.form-container{
+  background: rgb(173, 138, 138);
+  width: 300px;
+  height: 400px;
+  position: static;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba (0,0,0,0.1);
+  
+}
+
+.form-container span{
+font-weight: bold;
+padding: 0 10px;
+color: #040303;
+cursor: pointer;
+width: 100px;
+display: inline-block;
+
+}
+
+.form-btn{
+
+ display: inline-block;   
+}
+
+.form-container form{
+ max-width: 300px; 
+ padding: 0 20px;
+ position: static;
+ 
+ transform: transform 1s;
+
+}
+
+form input{
+
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+}
+
+form .btn{
+
+    width: 100% ;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus{
     outline: none;
 }
 
 
 
+#RegForm{
+
+    left: 0;
+}
+
+form a{
+  font-size: 12px;  
+}
+
+/*#Indicator{
+    width: 100px;
+    border: none;
+    background: #0a0909d5 ;
+    height: 3px;
+    margin-top: 3px;
+    transform: translateX(100px);
+    transition: transform 1s;
+
+}
+/*
+form {
+
+    background-color: #fff;
+}
+*/
 
 
+.color{
+    background: #b09696;
+}
